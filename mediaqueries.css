@@ -60,6 +60,7 @@
     margin-bottom: 2rem;
   }
   .about-containers,
+  .skills-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
@@ -95,5 +96,13 @@
   }
   .text-container{
     text-align: justify;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .skills-containers,
+  .about-containers {
+    flex-direction: column;
   }
 }
